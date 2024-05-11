@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="7 Wonders of the World">
+    <title>Seven Wonders of the World</title>
+	<link rel="icon" type="image/x-icon" href="..\WondersWebsiteImages\world-globe-earth-map-png.webp">
+    <style>
+	
+	#content {
+	width:1100px;
+	padding:0px;
+	border:2px solid blue;
+	border-radius:5px;
+	box-shadow: 3px 3px 1.5px #666666;
+	margin:10px auto; 
+	align-items: center;
+	}
+	
+        /* styling for the body */
+        body {
+			background-color: #b2e6f7;
+            font-family: Arial, sans-serif;
+			text-align: center;
+			item-align: center;
+			margin: auto;
+            
+        }
+        
+        /* Style for the image container */
+        .wonder {
+            margin: 20px;
+			float: center;
+			position: relative;
+			align-items: center;
+		}
+	
+	/* styling for great wall of china */
+	.centered-wonder {
+            position: relative;
+            left: 103%;
+
+        }
+		
+        }
+        
+        /* Style for the images */
+        .wonder img {
+            max-width: 100%;
+            border: 2px solid black;
+        }
+        
+        /* Style for the description text */
+        .description {
+            margin-top: 10px;
+			margin-bottom: 35px;
+        }
+		
+		/* styling for the positions of the wonders */
+		.grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+		
+		.hover-shadow:hover {
+  box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.22),  0 24px 60px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+a:link {
+	text-decoration:none;
+	font-weight:none;
+	color: black;
+	}
+		a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+		}
+		
+		header img{
+	float:center;
+	position:relative;  
+	margin:-10px 22px;
+	
+	
+    </style>
+</head>
+<body>
+<div id="content">
+<header>
+			<img src="..\WondersWebsiteImages\world-globe-earth-map-png.webp" height="45" alt="globe" title="Globe">
+    <h1 style="display:inline-block;">Seven Wonders of the World</h1>
+	<img src="..\WondersWebsiteImages\world-globe-earth-map-png.webp" height="45" alt="globe" title="Globe">
+</header>
+
+<div class="grid-container">
+   
+   <div class="wonder">
+   <a href="..\WondersWebsiteHTML\webcolosseum.html">
+        <img src="..\WondersWebsiteImages\Colosseum.jpg" width="300" height="210" alt="Colosseum" border="2px solid black" class="hover-shadow cursor">
+	</a>
+        <p class="description"><b><a href="..\WondersWebsiteHTML\webcolosseum.html">Colosseum</a></b></p>
+	</a>
+   </div>
+ 
+   <div class="wonder">
+      <a href="..\WondersWebsiteHTML\webreedemer.html">
+        <img src="..\WondersWebsiteImages\Christ-the-Redeemer.jpg" width="300" height="210" alt="Christ the Reedemer" border="2px solid black" class="hover-shadow cursor">
+		</a>
+        <p class="description"><b><a href="..\WondersWebsiteHTML\webreedemer.html">Christ the Redeemer</a></b></p>
+   </div>
+
+    <div class="wonder">
+	   <a href="..\WondersWebsiteHTML\ChichenItza.html">
+        <img src="..\WondersWebsiteImages\Chichén Itzá.jpg" width="300" height="210" alt="Chichén Itzá" border="2px solid black" class="hover-shadow cursor">
+        </a>
+		<p class="description"><b><a href="..\WondersWebsiteHTML\ChichenItza.html">Chichén Itzá</a></b></p>
+    </div>
+
+    <div class="wonder">
+	   <a href="..\WondersWebsiteHTML\MachuPicchupage.html">
+        <img src="..\WondersWebsiteImages\Machu Picchu.jpg" width="300" height="210" alt="Machu Picchu" border="2px solid black" class="hover-shadow cursor">
+       </a>
+	   <p class="description"><b><a href="..\WondersWebsiteHTML\MachuPicchupage.html">Machu Picchu</a></b></p>
+   </div>
+
+   <div class="wonder">
+      <a href="..\WondersWebsiteHTML\Petrapage.html">
+        <img src="..\WondersWebsiteImages\Petra.jpg" width="300" height="210" alt="Petra" border="2px solid black" class="hover-shadow cursor">
+        </a>
+		<p class="description"><b><a href="..\WondersWebsiteHTML\Petrapage.html">Petra</a></b></p>
+   </div>
+
+    <div class="wonder">
+           <a href="..\WondersWebsiteHTML\TajMahalpage.html">
+		<img src="..\WondersWebsiteImages\Taj Mahal.jpg" width="300" height="210" alt="Taj Mahal" border="2px solid black" class="hover-shadow cursor">
+        </a>
+		<p class="description"><b><a href="..\WondersWebsiteHTML\TajMahalpage.html">Taj Mahal</a></b></p>
+   </div>
+
+
+
+    <div class="centered-wonder">
+           <a href="..\WondersWebsiteHTML\GreatWallofChinaPage.html">
+		<img src="..\WondersWebsiteImages\the-great-wall-of-china.jpg" width="300" height="210" alt="Great Wall of China" border="2px solid black" class="hover-shadow cursor">
+        </a>
+		<p class="description"><b><a href="..\WondersWebsiteHTML\GreatWallofChinaPage.html">Great Wall of China</a></b></p>
+   </div>
+   <div class="grid-container">
+	
+</div>
+</body>
+</html>

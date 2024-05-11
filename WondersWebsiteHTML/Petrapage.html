@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="Petra">
+    <title>Petra</title>
+    <link rel="stylesheet" type="text/css" href="..\WondersWebsiteCSS\webtest1.css">
+</head>
+<body style="background-color:#dc805b;">
+<div id="content" style="border-color:#9e6042; border-width:3px;">
+    <h1>Petra</h1>
+
+   
+   <div class="wonder">
+      <p>
+        <img src="..\WondersWebsiteImages\Petra.jpg" width="400" height="280" alt="Colosseum" border="2px solid black">
+		</p>
+        <p class="description"><b>Petra</b></p>
+   </div>
+ 
+ <p class="centered-text" align="right"><font size=4>  This is a paragraph about Petra lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. It's located in Jordan. </font></p>
+   
+ <div class="spacey-photos">
+    <img src="..\WondersWebsiteImages\petra-camel.jpg" width="300" height="210" alt="Petra Camel" onclick="playSound()" border="2px solid black" class="hover-shadow cursor">
+	<audio id="click-sound" src="..\WondersWebsiteAudios\Camel3.mp3"></audio> <!-- contains audio file to be played -->
+	<img src="..\WondersWebsiteImages\petra-alternate.jpg" width="300" height="210" alt="Petra Alternate Photo" border="2px solid black" class="hover-shadow cursor">  
+    <img src="..\WondersWebsiteImages\petra-zoomed-out.jpeg" width="300" height="210" alt="Petra Zoomed Out" border="2px solid black" class="hover-shadow cursor">
+</div>
+</div>
+<script>
+        function playSound() { //function to play audio file
+            const sound = document.getElementById('click-sound');
+            sound.currentTime = 0; // Rewinds to the beginning of audio
+            sound.play();
+        }
+    </script>
+</body>
+</html>
